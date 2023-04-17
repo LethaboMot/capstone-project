@@ -24,7 +24,6 @@ body {
 
 .navigation_option {
   display: none;
-  list-style: none;
   column-gap: 20px;
 }
 
