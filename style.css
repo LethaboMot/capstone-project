@@ -338,9 +338,9 @@ footer {
   }
 
   .navigation_option {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    column-gap: 2%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
     font-size: 15px;
     margin-top: -50px;
     padding-left: 700px;
@@ -389,15 +389,15 @@ footer {
   }
 
   .main_program {
-    padding-left: 580px;
+    padding-left: 650px;
     height: 40px;
   }
 
   .guest_list {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-column-gap: 24px;
-    padding-left: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+    padding-left: 250px;
     padding-bottom: 20px;
   }
 
@@ -413,7 +413,7 @@ footer {
   }
 
   .underline {
-    padding-left: 700px;
+    padding-left: 770px;
   }
 
   .program:hover {
@@ -508,7 +508,7 @@ footer {
   }
 
   .explain {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   #partner {
@@ -520,14 +520,14 @@ footer {
   .socials {
     display: flex;
     flex-direction: row;
-    column-gap: 20px;
+    gap: 100px;
     padding-left: 590px;
     padding-bottom: 50px;
     padding-top: 10px;
   }
 
   .orange_associate {
-    padding-left: 700px;
+    padding-left: 830px;
     margin-top: -45px;
   }
 
@@ -557,7 +557,7 @@ footer {
   }
 
   .associate {
-    padding-left: 670px;
+    padding-left: 800px;
   }
 
   a:link {
