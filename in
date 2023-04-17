@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Capstone</title>
+</head>
+<body>
+    <header>
+        <div id="slidemenu" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="./images/298889_x_icon.png" alt="closing icon" width="40" height="40"></a>
+            <p><a class="slidefont" href="#home" onclick="closeNav()">Home</a></p>
+            <p><a class="slidefont" href="#program" onclick="closeNav()">Main Program</a></p>
+            <p><a class="slidefont" href="#guest" onclick="closeNav()">Guest</a></p>
+            <p><a  class="slidefont" href="about.html">About page</a></p>
+        </div>
+        <div class="greyarea">
+            <a class=""><img src="images/whitefacebook.png" alt="white facebook logo" srcset="" width="15" height="15"></a>
+            <a class=""><img src="images/whitetwitter.png" alt="white twitter logo" width="15" height="15"></a>
+            <a class="">English</a>
+            <a class="">my Page</a>
+            <a class=""> Logout</a>
+        </div>
+        <nav>
+            <div class="hamburger">
+                <span style="font-size: 30px; cursor: pointer" onclick="openNav()">
+                    <img src="./images/Hamburger_icon.svg.png" width="30" height="30">
+                </span>
+            </div>
+            <div class="logo">
+                <img src="./images/summit-logo.png" alt="logo" srcset="" width="100" height="50">
+            </div>
+            <div class="navigation_option">
+                <a class="navi" href="about.html">About</a>
+                <a class="">program</a>
+                <a class="">Join</a>
+                <a class="">Sponsor</a>
+                <a class="">News</a>
+                <div>
+                <button class="campaignbutton"></button>
+                </div>
+            
+            </div>
+        </nav>
+    </header>
+    <section class="first_part" id="home">
+        <p class="hello">"Come Film with us"</p>
+        <h1>FILM EXPO UNIVERSAL <br>SUMMIT 2015</h1>
+        <p class="information">come and enjoy talks about cinematography and different people and production studios take advantage of the camera and story telling</p>
+        <p class="date">2023.10.15(FRI)-(SAT)</p>
+        <p>@ the global get together with film enthusiast</p>
+    </section>
+    <section class="main_part" id="program">
+        <h2 class="main_program">Main program</h2>
+        <div class="guest_list">
+            <div class="program" href="">
+                <h3>Lectures</h3>
+                <p class="explain">Talking about film</p>
+            </div>
+            <div class="program" href="">
+                <h3>Chat</h3>
+                <p class="explain">Get to know people are just like you</p>
+            </div>
+            <div class="program">
+                <h3>FORUM</h3>
+                <p class="explain">Shops will be open</p>
+            </div>
+            <div class="program">
+                <h3>Film recommendation</h3>
+                <p class="explain">Its like book club</p>
+            </div>
+            <div class="program" href="">
+                <h3>Signings</h3>
+                <p class="explain">Get an autograph </p>
+            </div>
+        </div>
+        <div>
+            <button class="button">join the film summit 2023</button>
+        </div>
+        <div class="replace">
+            <a><u>SEE THE WHOLE PROGRAM</u></a>
+        </div>
+    </section>
+    <section class="ending" id="guest"></section>
+    <section id="partner">
+        <h2 class="associate">Associated</h2>
+        <div class="socials">
+         <a href="https://www.sony.com/za/homepage"><img src="./images/sony-logo-3068.png" width="50" height="50"/></a>
+         <a href="https://discord.com/"><img src="./images/discord-logo-png-7622.png" alt="discord logo"  width="50" height="50"></a>
+         <a href="https://www.instagram.com/"><img src="./images/logo-ig-png-32457.png" alt="instagram"  width="50" height="50"/></a>
+         <a href="https://www.facebook.com/"><img src="./images/logo-facebookpng-32213.png" alt=" logo-facebookpng-32213"  width="50" height="50"></a>
+        </div> 
+    </section>
+    <footer>
+        <div class="credit">
+            <img src="./images/summit-logo.png" alt="summit logo" width="150" height="100">
+            <p>Held in South Africa where all the Film director will all be together giving their take and methods</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="feature.js"></script>
+    <script src="projects.js"></script>
+</body>
+</html>
