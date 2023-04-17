@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.first_part {
+  padding-top: 30px;
+  background-image: url("./images/bg-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.navigation_option {
+  display: none;
+  list-style: none;
+  column-gap: 20px;
+}
+
+h1 {
+  font-weight: 800;
+  padding-left: 20px;
+  color: #ec5242;
+}
+
+p {
+  padding-left: 20px;
+}
+
+.hello {
+  color: #ec5242;
+}
+
+section {
+  background-color: #fff;
+}
+
+.information {
+  background: #fff;
+  font-size: 14px;
+  border-style: solid;
+  border-color: bisque;
+  margin-left: 19px;
+  padding-right: 14px;
+  margin-top: 20px;
+  margin-right: 14px;
+}
+
+.contact {
+  font-size: 15px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.bold {
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.mid {
+  padding-left: 100px;
+}
+
+.ending {
+  background-color: rgb(20, 20, 20);
+  color: #fff;
+  padding-bottom: 40px;
+  font-size: 10px;
+}
+
+.ending1 {
+  display: none;
+}
+
+.images_class {
+  margin-left: 40px;
+  padding-top: 50px;
+  overflow-x: hidden;
+}
+
+.orangebar {
+  padding-left: 30px;
+}
+
+.orangebar2 {
+  padding-left: 200px;
+}
+
+.orangebar3 {
+  padding-left: 200px;
+}
+
+.second_part {
+  padding-top: 50px;
+}
+
+.third_part {
+  padding-top: 50px;
+}
+
+h2 {
+  margin-left: 90px;
+}
+
+footer {
+  background-color: #fff;
+}
+
+.adjust {
+  margin-top: 15px;
+  padding-bottom: 40px;
+}
+
+.container {
+  position: relative;
+  width: 79.5%;
+  padding-left: 50px;
+  padding-bottom: 14px;
+}
+
+.southafricasummit {
+  display: none;
+}
+
+.image2 {
+  width: 99%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.partner {
+  margin-left: 110px;
+  padding-top: 40px;
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+.sizing {
+  width: 100px;
+}
+
+.socials {
+  margin-top: 20px;
+  padding-left: 80px;
+}
+
+.credit {
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+}
+
+.greyarea {
+  display: none;
+}
+
+.credit1 {
+  display: none;
+}
+
+.end_credit {
+  display: none;
+}
+
+/* overlay  */
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #272a31 !important;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(6px);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: left;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.slidefont {
+  text-decoration: none;
+}
+
+.overlay p .slidefont {
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 2;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 22px;
+}
+
+.logo {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #fff;
+  }
+
+  .first_part {
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 200px;
+    background-image: url("./images/bg.png");
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 35px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+  }
+
+  .hello {
+    font-size: 14px;
+  }
+
+  .contact {
+    margin-left: 10px;
+    padding-top: 50px;
+  }
+
+  .bold {
+    padding-left: 60px;
+  }
+
+  .second_part {
+    padding-left: 300px;
+  }
+
+  .images_class {
+    padding-left: 320px;
+    padding-bottom: 100px;
+  }
+
+  .logo {
+    display: initial;
+    padding-left: 200px;
+    padding-bottom: -199px;
+  }
+
+  .image {
+    width: 100%;
+    height: 80%;
+    padding-left: 300px;
+    padding-right: -400px;
+    overflow-x: hidden;
+    display: block;
+  }
+
+  .image2 {
+    width: 310px;
+    height: 80%;
+    padding-right: 100px;
+    padding-left: -10px;
+    overflow-x: hidden;
+    display: block;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    padding-right: 40px;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  .socials {
+    padding-left: 750px;
+    padding-bottom: 30px;
+    display: none;
+  }
+
+  .past {
+    padding-left: 500px;
+  }
+
+  .adjust {
+    padding-left: 510px;
+    padding-bottom: 80px;
+    margin-top: -5px;
+  }
+
+  .orangebar3 {
+    padding-left: 800px;
+    margin-top: -40px;
+  }
+
+  .global {
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-right: 100px;
+    text-align: center;
+  }
+
+  .hamburger {
+    display: none;
+    list-style: none;
+    column-gap: 20px;
+  }
+
+  .navigation_option {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 500px;
+    column-gap: 50px;
+    text-decoration: none;
+    margin-top: -20px;
+    padding-bottom: -40px;
+  }
+
+  .ending {
+    color: #fff;
+  }
+
+  .campaignbutton {
+    border-color: #ec5242;
+    border: 2px solid #ec5242;
+    background-color: white;
+    color: #ec5242;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    float: left;
+  }
+
+  button {
+    color: #000;
+  }
+
+  .button {
+    color: #ec5242;
+    border-color: #ec5242;
+    border-style: solid;
+    margin-right: 50%;
+  }
+
+  .greyarea {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: #272a31;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
+    padding-left: 1150px;
+    row-gap: 10px;
+    color: #fff;
+  }
+
+  a {
+    clear: left;
+    line-height: 20px;
+  }
+
+  .navi {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .orangebar {
+    padding-left: 20px;
+  }
+
+  .information {
+    padding-bottom: 40px;
+    padding-left: 50px;
+    font-size: 16px;
+  }
+
+  .credit {
+    display: none;
+  }
+
+  .credit1 {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-left: 300px;
+    font-size: 50px;
+    color: #fff;
+  }
+
+  .images_size {
+    width: 50%;
+    height: 100%;
+    padding-left: 50px;
+  }
+
+  .ending1 {
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+    padding-bottom: 40px;
+  }
+
+  .end_credit {
+    background-color: #595a5c;
+  }
+
+  .southafricasummit {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-left: 300px;
+    color: white;
+    font-size: 15px;
+  }
+
+  .orangebar2 {
+    padding-left: 500px;
+    margin-top: -40px;
+  }
+
+  p .paragraph {
+    color: #fff;
+  }
+}
