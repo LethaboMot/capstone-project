@@ -314,6 +314,10 @@ footer {
   width: 150px;
 }
 
+.program_images {
+  margin-right: 5px;
+}
+
 @media only screen and (min-width: 768px) {
   html,
   body {
@@ -349,7 +353,7 @@ footer {
 
   .logo {
     display: initial;
-    padding-left: 370px;
+    padding-left: 170px;
     margin-bottom: -100px;
   }
 

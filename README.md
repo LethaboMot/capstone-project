@@ -216,6 +216,7 @@ Please give a ⭐️if you like this project
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse for giving me this opportunity
+I would  like to thank Cindy Chin for letting me use your template  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
