@@ -17,7 +17,7 @@ const projects = [
     header: 'Steven Knight',
     paragraph: 'Director creator Peaky Blinders, with his strong writing and his selective choice of casting members his. Steven Knight never seems to disappoints the audience',
   },
- {
+  {
     card: 4,
     image: './images/watanabe.png',
     header: 'Vince Gilligan',
@@ -27,14 +27,14 @@ const projects = [
     card: 5,
     images: './images/rebecca.png',
     header: 'Rebecca Sugar',
-    paragraph:'Created Steven Universe, strong story telling with colorful range of characters, she always captivates the watcher',
+    paragraph: 'Created Steven Universe, strong story telling with colorful range of characters, she always captivates the watcher',
   },
   {
     card: 6,
     images: './images/alex hirsch.png',
     header: 'Alex hirsch',
-    paragraph:'Creator of Gravity Fall, with his music selection and casting voice actors, Alex Hirsch never fails. With his impressive use of suspense',
-  }
+    paragraph: 'Creator of Gravity Fall, with his music selection and casting voice actors, Alex Hirsch never fails. With his impressive use of suspense',
+  },
 ];
 
 window.onclick = function (event) {
