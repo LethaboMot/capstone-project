@@ -347,7 +347,7 @@ footer {
     gap: 10%;
     font-size: 15px;
     margin-top: -50px;
-    padding-left: 950px;
+    padding-left: 750px;
     padding-right: 100px;
   }
 
@@ -393,7 +393,7 @@ footer {
   }
 
   .main_program {
-    padding-left: 650px;
+    padding-left: 550px;
     height: 40px;
   }
 
@@ -401,7 +401,7 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 26px;
-    padding-left: 250px;
+    padding-left: 150px;
     padding-bottom: 20px;
   }
 
@@ -417,7 +417,7 @@ footer {
   }
 
   .underline {
-    padding-left: 770px;
+    padding-left: 670px;
   }
 
   .program:hover {
@@ -525,25 +525,25 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 100px;
-    padding-left: 590px;
+    padding-left: 490px;
     padding-bottom: 50px;
     padding-top: 10px;
   }
 
   .orange_associate {
-    padding-left: 830px;
+    padding-left: 730px;
     margin-top: -45px;
   }
 
   .greyarea {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    display: flex;
+    flex-direction: row;
     background-color: #272a31;
     font-weight: 500;
     font-size: 10px;
     line-height: 20px;
     padding-left: 1150px;
-    row-gap: 10px;
+    gap: 29px;
     color: #fff;
   }
 
@@ -561,7 +561,7 @@ footer {
   }
 
   .associate {
-    padding-left: 800px;
+    padding-left: 700px;
   }
 
   a:link {
@@ -583,7 +583,7 @@ footer {
     display: flex;
     flex-direction: row;
     padding-top: 30px;
-    padding-left: 499px;
+    padding-left: 299px;
   }
 
   .footer {
