@@ -100,7 +100,7 @@ To get a local copy up and running, follow these steps.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://lethabomot.github.io/capstone-project/)
-- [video link](https://www.loom.com/share/fc05c366fa3d4cc88627c7d70389baf2)
+- [video link](https://www.loom.com/share/b76c214b9e4547ecbdc9a09b8ff479b1)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
