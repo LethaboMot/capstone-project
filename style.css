@@ -402,7 +402,7 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 26px;
-    padding-left: 140px;
+    padding-left: 100px;
     padding-bottom: 20px;
   }
 
@@ -614,7 +614,7 @@ footer {
 
   .alex {
     margin-top: -40px;
-    margin-left: -80px;
+    margin-left: -160px;
     width: 190px;
   }
 
