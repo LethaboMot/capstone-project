@@ -394,7 +394,7 @@ footer {
   }
 
   .main_program {
-    padding-left: 550px;
+    padding-left: 600px;
     height: 40px;
   }
 
@@ -402,7 +402,7 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 26px;
-    padding-left: 105px;
+    padding-left: 140px;
     padding-bottom: 20px;
   }
 
@@ -418,7 +418,7 @@ footer {
   }
 
   .underline {
-    padding-left: 670px;
+    padding-left: 720px;
   }
 
   .program:hover {
@@ -514,7 +514,8 @@ footer {
   }
 
   .explain {
-    font-size: 12px;
+    font-size: 13px;
+    text-align: center;
   }
 
   #partner {
@@ -557,7 +558,7 @@ footer {
 
   .vince_gilligan {
     margin-top: -100px;
-    padding-left: 100px;
+    padding-left: 190px;
     width: 240px;
   }
 
@@ -595,14 +596,14 @@ footer {
 
   .stevenknight {
     margin-top: -80px;
-    padding-left: 110px;
+    padding-left: 190px;
     width: 480px;
   }
 
   .watanabe {
     margin-top: -50px;
     width: 200px;
-    margin-left: -150px;
+    margin-left: -200px;
   }
 
   .tarantino {
@@ -619,7 +620,7 @@ footer {
 
   .rebecca {
     margin-top: -40px;
-    padding-left: 110px;
+    padding-left: 200px;
     width: 240px;
   }
 
