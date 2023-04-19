@@ -122,7 +122,7 @@ section {
 }
 
 .program2 {
-  padding: 10px;
+  padding: 5px;
   color: #ec5242;
   display: flex;
   align-items: center;
@@ -133,7 +133,7 @@ section {
 }
 
 .program3 {
-  padding: 10px;
+  padding: 5px;
   color: #ec5242;
   display: flex;
   align-items: center;
@@ -144,7 +144,7 @@ section {
 }
 
 .program4 {
-  padding: 10px;
+  padding: 5px;
   color: #ec5242;
   display: flex;
   align-items: center;
@@ -155,7 +155,7 @@ section {
 }
 
 .program5 {
-  padding: 10px;
+  padding: 5px;
   color: #ec5242;
   display: flex;
   align-items: center;
@@ -401,7 +401,7 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 26px;
-    padding-left: 150px;
+    padding-left: 195px;
     padding-bottom: 20px;
   }
 
@@ -493,9 +493,10 @@ footer {
   .replace {
     display: initial;
     padding-left: 680px;
-    padding-top: 1000px;
+    margin-top: 1000px;
     color: #fff;
     font-size: 13px;
+    padding-bottom: 100px;
   }
 
   .underline_guest {
@@ -532,7 +533,7 @@ footer {
 
   .orange_associate {
     padding-left: 730px;
-    margin-top: -45px;
+    margin-top: -20px;
   }
 
   .greyarea {
@@ -550,13 +551,12 @@ footer {
   .grid {
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 1px;
-    padding-left: 20px;
+    padding-left: 50px;
   }
 
   .vince_gilligan {
     margin-top: -100px;
-    padding-left: 30px;
+    padding-left: 100px;
     width: 240px;
   }
 
@@ -594,7 +594,7 @@ footer {
 
   .stevenknight {
     margin-top: -80px;
-    padding-left: 60px;
+    padding-left: 110px;
     width: 480px;
   }
 
@@ -618,7 +618,7 @@ footer {
 
   .rebecca {
     margin-top: -40px;
-    padding-left: 70px;
+    padding-left: 110px;
     width: 240px;
   }
 
