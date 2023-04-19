@@ -90,9 +90,9 @@ To get a local copy up and running, follow these steps.
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-- **[made homepage]**
-- **[made aboutpage]**
-- **[made the mobile menu]**
+- **[made-home-page]**
+- **[made-about-page]**
+- **[made-the-mobile-menu]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
@@ -100,7 +100,7 @@ To get a local copy up and running, follow these steps.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://lethabomot.github.io/capstone-project/)
-- [video link](https://www.loom.com/share/b76c214b9e4547ecbdc9a09b8ff479b1)
+- [video link](https://www.loom.com/share/63bd2ad19a0b45139f353a07071b6896)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
